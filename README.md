@@ -6,7 +6,7 @@ Despite having one of the largest education systems in the world, India still fa
 
 To address these challenges and promote quality education for all, we have developed "UnityEd" - an app that aims to unify education and empower minds. Our app provides affordable and accessible education to students across India and keeps them updated with the latest advancements in their fields of interest.
 
-## <img src="https://user-images.githubusercontent.com/127510129/228629251-b88485e8-9d4e-4b1e-a5f5-b90bb16469d8.png" width="22" height="22"> Features
+## <img src="https://user-images.githubusercontent.com/96647027/228636583-afd807e3-d179-4277-add6-1d755c8faa32.png" width="22" height="22"> Features
 
 <b>News and Updates</b>: Stay up-to-date with changes in government policies, scholarship opportunities, and admission procedures for different courses and colleges.
 
@@ -16,11 +16,11 @@ To address these challenges and promote quality education for all, we have devel
 
 <b>Community Support</b>: Connect with fellow students, share experiences and challenges, seek advice and support.
 
-## <img src="https://user-images.githubusercontent.com/127510129/228629730-5a722aac-339f-4fcc-a11e-41245b372642.png" width="25" height="25"> Goals
+## <img src="https://user-images.githubusercontent.com/96647027/228635384-9bb0bf2c-c766-496a-819c-bcdb4ffecd11.png" width="25" height="25"> Goals
 
 At "UnityEd", <b> we are committed to the United Nations' goal for "Quality Education" </b> and aim to eliminate discrimination in education by providing equal access to affordable technical, vocational, and higher education. By addressing systemic issues in the Indian education system, we strive to promote a future where all citizens have access to quality education that equips them with the skills and knowledge needed to succeed in a rapidly changing world.
 
-## <img src="https://user-images.githubusercontent.com/127510129/228630358-57d72c9b-fb7f-4374-a25d-305f5531e552.png" width="25" height="25"> Get in Touch
+## <img src="https://user-images.githubusercontent.com/96647027/228636797-39530439-2d0f-4325-9482-91db1bf3abb3.png" width="25" height="25"> Get in Touch
 
 We welcome your feedback and suggestions to improve our app and ensure that it meets your needs. Download "UnityEd" today and start your journey towards a better future.
 
