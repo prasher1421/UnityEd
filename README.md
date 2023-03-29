@@ -19,7 +19,7 @@ Community Support: Connect with fellow students, share experiences and challenge
 
 At UnityEd, we are committed to the United Nations' goal for "Quality Education" and aim to eliminate discrimination in education by providing equal access to affordable technical, vocational, and higher education. By addressing systemic issues in the Indian education system, we strive to promote a future where all citizens have access to quality education that equips them with the skills and knowledge needed to succeed in a rapidly changing world.
 
-Get in Touch
+##Get in Touch
 
 We welcome your feedback and suggestions to improve our app and ensure that it meets your needs. Download UnityEd today and start your journey towards a better future.
 
