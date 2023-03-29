@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/tablayout_10th"
         app:tabTextColor="@color/white"
-        android:background="#532BFF"
+        android:background="#225778"
         app:tabMode="scrollable"
         app:tabTextAppearance="@style/TabLayoutStyle">
 

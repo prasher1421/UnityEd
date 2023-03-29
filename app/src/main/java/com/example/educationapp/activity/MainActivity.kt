@@ -129,12 +129,12 @@ class MainActivity : AppCompatActivity() {
      fun addLangData() {
         val talent_test = FirstPage()
         talent_test.title = "Talent Test at Glance"
-        talent_test.img_icon= R.drawable.ic_talent_test
+        talent_test.img_icon= R.drawable.test_talent
         title_icon.add(talent_test)
 
         val after_tenth = FirstPage()
         after_tenth.title = "After 10th"
-        after_tenth.img_icon= R.drawable.ic_after10th
+        after_tenth.img_icon= R.drawable.school
         title_icon.add(after_tenth)
 
         val after_intermediate = FirstPage()
@@ -144,22 +144,22 @@ class MainActivity : AppCompatActivity() {
 
         val exam_after_intermediate = FirstPage()
         exam_after_intermediate.title = "Exams After Intermediate"
-        exam_after_intermediate.img_icon= R.drawable.ic_exam
+        exam_after_intermediate.img_icon= R.drawable.exam
         title_icon.add(exam_after_intermediate)
 
         val after_graduation = FirstPage()
         after_graduation.title = "After Graduation"
-        after_graduation.img_icon= R.drawable.ic_school_black_24dp
+        after_graduation.img_icon= R.drawable.after_graduation
         title_icon.add(after_graduation)
 
         val course_types = FirstPage()
         course_types.title = "Course Types"
-        course_types.img_icon= R.drawable.ic_coursetypes
+        course_types.img_icon= R.drawable.course
         title_icon.add(course_types)
 
          val scholarships = FirstPage()
         scholarships.title = "Scholarships"
-        scholarships.img_icon= R.drawable.baseline_scholarship_24
+        scholarships.img_icon= R.drawable.scholarship
         title_icon.add(scholarships)
     }
 
