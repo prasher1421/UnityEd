@@ -41,12 +41,14 @@
             android:parentActivityName=".activity.MainActivity" />
         <activity
             android:name=".activity.after_10th_activity"
+            android:exported="true"
             android:parentActivityName=".activity.MainActivity" />
         <activity
             android:name=".activity.MainActivity"
             android:exported="true" />
         <activity
             android:name=".activity.splash_screen_activity"
+            android:exported="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

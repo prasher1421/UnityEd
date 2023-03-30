@@ -2,6 +2,7 @@ package com.example.educationapp.activity
 
 import android.content.Context
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 //import android.util.Log
 import android.widget.AdapterView.OnItemClickListener
@@ -69,7 +70,7 @@ class MainActivity : AppCompatActivity() {
 //        gv_first_page.setOnItemClickListener { parent, view, position, id ->  }
 
 //        Toast.makeText(this, "Welcome!!", Toast.LENGTH_SHORT).show()
-        gv_first_page!!.setOnItemClickListener(OnItemClickListener { parent, view, position, id ->
+        gv_first_page!!.onItemClickListener = OnItemClickListener { parent, view, position, id ->
             when (position) {
                 0 -> {
                     val intent =Intent(this, talent_test_activity::class.java)
@@ -101,8 +102,16 @@ class MainActivity : AppCompatActivity() {
                     val intent =Intent(this, ScholarshipActivity::class.java)
                     startActivity(intent)
                 }
+                7 -> {
+                    gotoURL(getString(R.string.discordLink))
+                }
             }
-        })
+        }
+    }
+
+    private fun gotoURL(s: String) {
+        val uri = Uri.parse(s)
+        startActivity(Intent(Intent.ACTION_VIEW,uri))
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
@@ -114,7 +123,7 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
 
 
-        when(item.getItemId()) {
+        when(item.itemId) {
             R.id.menu_icon -> {
                 val intent = Intent(this, gallery_activity::class.java)
                 startActivity(intent)
@@ -126,42 +135,67 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-     fun addLangData() {
-        val talent_test = FirstPage()
-        talent_test.title = "Talent Test at Glance"
-        talent_test.img_icon= R.drawable.test_talent
-        title_icon.add(talent_test)
 
-        val after_tenth = FirstPage()
-        after_tenth.title = "After 10th"
-        after_tenth.img_icon= R.drawable.school
-        title_icon.add(after_tenth)
+     private fun addLangData() {
+        val talentTest = FirstPage()
+        talentTest.title = "Talent Test at Glance"
+        talentTest.img_icon= R.drawable.ic_talent_test
+        title_icon.add(talentTest)
 
-        val after_intermediate = FirstPage()
-        after_intermediate.title = "After Intermediate"
-        after_intermediate.img_icon= R.drawable.ic_afterintermediate
-        title_icon.add(after_intermediate)
+        val afterTenth = FirstPage()
+        afterTenth.title = "After 10th"
+        afterTenth.img_icon= R.drawable.ic_after10th
+        title_icon.add(afterTenth)
 
-        val exam_after_intermediate = FirstPage()
-        exam_after_intermediate.title = "Exams After Intermediate"
-        exam_after_intermediate.img_icon= R.drawable.exam
-        title_icon.add(exam_after_intermediate)
 
-        val after_graduation = FirstPage()
-        after_graduation.title = "After Graduation"
-        after_graduation.img_icon= R.drawable.after_graduation
-        title_icon.add(after_graduation)
+        val afterIntermediate = FirstPage()
+        afterIntermediate.title = "After Intermediate"
+        afterIntermediate.img_icon= R.drawable.ic_afterintermediate
+        title_icon.add(afterIntermediate)
 
-        val course_types = FirstPage()
-        course_types.title = "Course Types"
-        course_types.img_icon= R.drawable.course
-        title_icon.add(course_types)
+        val examAfterIntermediate = FirstPage()
+        examAfterIntermediate.title = "Exams After Intermediate"
+        examAfterIntermediate.img_icon= R.drawable.ic_exam
+        title_icon.add(examAfterIntermediate)
+
+        val afterGraduation = FirstPage()
+        afterGraduation.title = "After Graduation"
+        afterGraduation.img_icon= R.drawable.ic_school_black_24dp
+        title_icon.add(afterGraduation)
+
+        val courseTypes = FirstPage()
+        courseTypes.title = "Course Types"
+        courseTypes.img_icon= R.drawable.ic_coursetypes
+        title_icon.add(courseTypes)
 
          val scholarships = FirstPage()
         scholarships.title = "Scholarships"
         scholarships.img_icon= R.drawable.scholarship
         title_icon.add(scholarships)
+
+         val communitySupport = FirstPage()
+         communitySupport.title = "Community"
+         communitySupport.img_icon = R.drawable.baseline_community_24
+         title_icon.add(communitySupport)
     }
+
+
+    fun getJSONFromAssets(context: Context, filetitle: String): String? {
+        val json: String?
+        try {
+            val myUsersJSONFile = context.assets.open(filetitle)
+            val size = myUsersJSONFile.available()
+            val buffer = ByteArray(size)
+            myUsersJSONFile.read(buffer)
+            myUsersJSONFile.close()
+            json = String(buffer)
+        } catch (ex: IOException) {
+            ex.printStackTrace()
+            return null
+        }
+        return json
+    }
+}
 
 
 //    override fun onClick(v: View) {
@@ -296,20 +330,3 @@ class MainActivity : AppCompatActivity() {
 //
 //    }
 
-
-     public fun getJSONFromAssets(context: Context, filetitle: String): String? {
-        var json: String? = null
-        try {
-            val myUsersJSONFile = context.assets.open(filetitle)
-            val size = myUsersJSONFile.available()
-            val buffer = ByteArray(size)
-            myUsersJSONFile.read(buffer)
-            myUsersJSONFile.close()
-            json = String(buffer)
-        } catch (ex: IOException) {
-            ex.printStackTrace()
-            return null
-        }
-        return json
-    }
-}
