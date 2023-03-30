@@ -7,6 +7,4 @@
     android:orientation="vertical"
     tools:context=".activity.ScholarshipActivity">
 
-    
-
 </androidx.appcompat.widget.LinearLayoutCompat>

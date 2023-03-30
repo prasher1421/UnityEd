@@ -135,6 +135,7 @@ class MainActivity : AppCompatActivity() {
     }
 
 
+
      private fun addLangData() {
         val talentTest = FirstPage()
         talentTest.title = "Talent Test at Glance"
@@ -145,6 +146,7 @@ class MainActivity : AppCompatActivity() {
         afterTenth.title = "After 10th"
         afterTenth.img_icon= R.drawable.ic_after10th
         title_icon.add(afterTenth)
+
 
         val afterIntermediate = FirstPage()
         afterIntermediate.title = "After Intermediate"
@@ -168,7 +170,7 @@ class MainActivity : AppCompatActivity() {
 
          val scholarships = FirstPage()
         scholarships.title = "Scholarships"
-        scholarships.img_icon= R.drawable.baseline_scholarship_24
+        scholarships.img_icon= R.drawable.scholarship
         title_icon.add(scholarships)
 
          val communitySupport = FirstPage()
