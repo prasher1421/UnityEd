@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">EducationApp</string>
+    <string name="app_name">UnityEd</string>
     <string name="Title" />
     <string name="sub_courses">Sub Courses</string>
     <string name="course_name">Course Name</string>
@@ -15,4 +15,5 @@
     <string name="test_name">Test Name</string>
     <string name="kotlin">Kotlin</string>
     <string name="college_image">College Image</string>
+    <string name="discordLink">https://discord.gg/vd58SE2J8C</string>
 </resources>
