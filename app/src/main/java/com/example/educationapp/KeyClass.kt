@@ -35,6 +35,40 @@ class TalentExamClass {
 }
 // Talent Test page ends
 
+
+
+//Scholarship page Starts
+class ScholarshipListClass {
+    @SerializedName("data")
+    val data: ArrayList<ScholarshipClass> = ArrayList()
+    override fun toString(): String {
+        return "ScholarshipListClass(data=$data)"
+    }
+}
+class ScholarshipClass {
+    @SerializedName("title")
+    val title: String = ""
+    @SerializedName("exams")
+    val exams: ArrayList<ScholarshipExamClass> = ArrayList()
+    override fun toString(): String {
+        return "ScholarshipClass(title='$title', exams=$exams)"
+    }
+}
+class ScholarshipExamClass {
+    @SerializedName("Title")
+    val Title: String = ""
+    @SerializedName("Type")
+    val Type: String = ""
+    @SerializedName("Source")
+    val Source: String = ""
+    override fun toString(): String {
+        return "TalentExamClass(Title='$Title', Type='$Type', Source='$Source')"
+    }
+}
+// Scholarship page ends
+
+
+
 //Course Type Page Starts
 class CourseTypeListClass{
     @SerializedName("data")

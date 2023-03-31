@@ -1,0 +1,84 @@
+{
+    "data": [
+        {
+            "title": "Scholarships",
+            "exams": [
+                {
+                    "Title": "Engineering",
+                    "Type": "Live Scholarships",
+                    "Source": "https://www.buddy4study.com/scholarships/engineering"
+                },
+                {
+                    "Title": "Engineering",
+                    "Type": "Upcoming Scholarships",
+                    "Source": "https://www.buddy4study.com/upcoming-scholarships/engineering"
+                },
+                {
+                    "Title": "Engineering",
+                    "Type": "Always Open Scholarships",
+                    "Source": "https://www.buddy4study.com/open-scholarships/engineering"
+                },
+                {
+                    "Title": "Medical",
+                    "Type": "Live Scholarships",
+                    "Source": "https://www.buddy4study.com/scholarships/medical?ref=HomePageScholarship"
+                },
+                {
+                    "Title": "Medical",
+                    "Type": "Upcoming Scholarships",
+                    "Source": "https://www.buddy4study.com/upcoming-scholarships/medical"
+                },
+                {
+                    "Title": "Medical",
+                    "Type": "Always Open Scholarships",
+                    "Source": "https://www.buddy4study.com/open-scholarships/medical"
+                },
+                {
+                    "Title": "Management",
+                    "Type": "Live Scholarships",
+                    "Source": "https://www.buddy4study.com/scholarships/management?ref=HomePageScholarship"
+                },
+                {
+                    "Title": "Management",
+                    "Type": "Upcoming Scholarships",
+                    "Source": "https://www.buddy4study.com/upcoming-scholarships/management"
+                },
+                {
+                    "Title": "Management",
+                    "Type": "Always Open Scholarships",
+                    "Source": "https://www.buddy4study.com/open-scholarships/management"
+                },
+                {
+                    "Title": "Law",
+                    "Type": "Live Scholarships",
+                    "Source": "https://www.buddy4study.com/scholarships/law"
+                },
+                {
+                    "Title": "Law",
+                    "Type": "Upcoming Scholarships",
+                    "Source": "https://www.buddy4study.com/upcoming-scholarships/law?ref=HomePageScholarship"
+                },
+                {
+                    "Title": "Law",
+                    "Type": "Always Open Scholarships",
+                    "Source": "https://www.buddy4study.com/open-scholarships/law"
+                },
+                {
+                    "Title": "Study Abroad",
+                    "Type": "Live Scholarships",
+                    "Source": "https://www.buddy4study.com/scholarships/study-abroad?ref=HomePageScholarship"
+                },
+                {
+                    "Title": "Study Abroad",
+                    "Type": "Upcoming Scholarships",
+                    "Source": "https://www.buddy4study.com/upcoming-scholarships/study-abroad"
+                },
+                {
+                    "Title": "Study Abroad",
+                    "Type": "Always Open Scholarships",
+                    "Source": "https://www.buddy4study.com/open-scholarships/study-abroad"
+                }
+            ]
+        }
+    ]
+}
