@@ -130,14 +130,14 @@
                             "exam_name": "APRJC",
                             "website": "www.aprs.cgg.gov.in",
                             "purpose": "",
-                            "eligibility": "",
+                            "Type": "",
                             "application_mode": ""
                         },
                         {
                             "exam_name": "Polytechnic Entrance",
                             "website": "www.appolitechnic.nic",
                             "purpose": "",
-                            "eligibility": "",
+                            "Type": "",
                             "application_mode": ""
                         }
                     ]

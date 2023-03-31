@@ -16,4 +16,8 @@
     <string name="kotlin">Kotlin</string>
     <string name="college_image">College Image</string>
     <string name="discordLink">https://discord.gg/vd58SE2J8C</string>
+
+    <string name="title">Title</string>
+    <string name="type">Type :</string>
+    <string name="source">Source :</string>
 </resources>
